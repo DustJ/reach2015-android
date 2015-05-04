@@ -1,6 +1,7 @@
 // Initialize your app
 var myApp = new Framework7({
-    swipePanel: 'left'
+    swipePanel: 'left',
+    pushState: true,
 
 });
 

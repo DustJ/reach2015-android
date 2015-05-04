@@ -114,7 +114,7 @@ body.with-panel-left-reveal .statusbar-overlay {
   font-size: 1em;
 }
 .accordion-item-expanded .accordion-item-content {
-  background: #eee;
+  background: #EFEFF4;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
@@ -158,7 +158,7 @@ body.with-panel-left-reveal .statusbar-overlay {
   min-height: 300px;
 }
 .bio p{
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 
@@ -197,29 +197,88 @@ div[class*="col-"], div[class*="tablet-"] {
   font-size: 1.2em;
   letter-spacing: 2px;
   position: absolute;
-  top: 65%;
+  top: 68%;
   width: 100%;
   text-align: center;
 }
 
-
-/* Nexus 5 Portrait */
+/* Galaxy S2 Portrait */
 @media only screen 
-  and (min-device-width: 360px) 
-  /*and (-webkit-device-pixel-ratio: 3)*/
+  and (min-device-width: 320px) 
+  and (min-device-height: 500px)
+  /*and (-webkit-device-pixel-ratio: 1.5)*/
   and (orientation: portrait) {
     .page[data-page="index"] {
       background: url('../img/home-bg.jpg') #DDEBF4 no-repeat center center;
       background-size: 100%;
     }
     #countdown-holder {
-      font-size: 1.7em;
-      top: 47.8%;
+      font-size: 1.6em;
+      top: 47.7%;
     }
     .bio .content-block-inner p {
-      font-size: 1.1em;
+      font-size: 0.9em;
     }
     #hashtag-holder {
     top: 67.5%;
     }
   }
+
+/* Nexus 5 Portrait */
+@media only screen 
+  and (min-device-width: 360px) 
+  /*and (-webkit-device-pixel-ratio: 3)*/
+  and (orientation: portrait) {
+    #countdown-holder {
+      font-size: 1.7em;
+      top: 47.8%;
+    }
+    .bio .content-block-inner p {
+      font-size: 1em;
+    }
+
+  }
+
+  /* Tablet sizing */
+  /* 7 inch tablet */
+  @media only screen 
+    and (min-device-width: 600px) 
+    /*and (-webkit-device-pixel-ratio: 3)*/
+    and (orientation: portrait) {
+      #countdown-holder {
+        font-size: 2.7em;
+      }
+      #hashtag-holder {
+        font-size: 1.4em;
+        top: 70%;
+      }
+      .bio .content-block-inner p {
+        font-size: 1.1em;
+      }
+
+    }
+
+    /* 9 inch tablet */
+    @media only screen 
+      and (min-device-width: 768px) 
+      /*and (-webkit-device-pixel-ratio: 3)*/
+      and (orientation: portrait) {
+        .page[data-page="index"] {
+          background-position: center 30%;
+        }
+        #countdown-holder {
+          font-size: 4em;
+          top: 55%;
+        }
+        #hashtag-holder {
+          font-size: 2em;
+          top: 80%;
+        }
+        .page[data-page="agenda"] .list-block{
+          font-size: 1.1em;
+        }
+        .speaker-card {
+          margin: 20px 0;
+          float: right;
+        }
+      }
