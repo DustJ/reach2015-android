@@ -81,4 +81,7 @@
     <access launch-external="yes" origin="mailto:*" />
     <access launch-external="yes" origin="sms:*" />
     <access launch-external="yes" origin="market:*" />
+    <feature name="UniversalAnalytics">
+        <param name="android-package" value="com.danielcwilson.plugins.analytics.UniversalAnalyticsPlugin" />
+    </feature>
 </widget>

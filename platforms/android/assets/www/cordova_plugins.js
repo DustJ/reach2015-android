@@ -20,6 +20,13 @@ module.exports = [
         "clobbers": [
             "window.StatusBar"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
+        "id": "cordova-plugin-google-analytics.UniversalAnalytics",
+        "clobbers": [
+            "analytics"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -27,7 +34,9 @@ module.exports.metadata =
 {
     "nl.x-services.plugins.socialsharing": "4.3.18",
     "org.apache.cordova.inappbrowser": "0.6.0",
-    "org.apache.cordova.statusbar": "0.1.10"
+    "org.apache.cordova.statusbar": "0.1.10",
+    "cordova-plugin-google-analytics": "0.7.2",
+    "com.google.playservices": "19.0.0"
 }
 // BOTTOM OF METADATA
 });
