@@ -53,8 +53,6 @@ activity#com.vitalsmarts.reachapp.MainActivity
 ADDED from AndroidManifest.xml:8:9
 	android:windowSoftInputMode
 		ADDED from AndroidManifest.xml:8:248
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:8:291
 	android:label
 		ADDED from AndroidManifest.xml:8:97
 	android:configChanges
@@ -77,14 +75,20 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:11:17
 	android:name
 		ADDED from AndroidManifest.xml:11:27
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:14:9
+	android:name
+		ADDED from AndroidManifest.xml:14:20
+	android:value
+		ADDED from AndroidManifest.xml:14:66
 uses-sdk
-ADDED from AndroidManifest.xml:15:5
+ADDED from AndroidManifest.xml:16:5
 MERGED from android:CordovaLib:unspecified:release:25:5
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:15:42
+		ADDED from AndroidManifest.xml:16:42
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:15:15
+		ADDED from AndroidManifest.xml:16:15
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from AndroidManifest.xml:16:5
+ADDED from AndroidManifest.xml:17:5
 	android:name
-		ADDED from AndroidManifest.xml:16:22
+		ADDED from AndroidManifest.xml:17:22
