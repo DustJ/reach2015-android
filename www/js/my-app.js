@@ -69,7 +69,7 @@ function onDeviceReady() {
 }
 
 myApp.onPageInit('*', function (page) {
-    window.analytics.trackView(page.url)
+    // window.analytics.trackView(page.url)
 });
 
 onLoad();
