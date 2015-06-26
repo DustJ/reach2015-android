@@ -201,9 +201,16 @@ div[class*="tablet-"] {
   font-size: 1.2em;
   letter-spacing: 2px;
   position: absolute;
-  top: 68%;
+  top: 70%;
   width: 100%;
   text-align: center;
+  line-height: 1em;
+}
+#hashtag-cta {
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+  margin-top: -8px;
+  color: rgba(255,255,255,0.5);
 }
 
 /*  App Help  */
