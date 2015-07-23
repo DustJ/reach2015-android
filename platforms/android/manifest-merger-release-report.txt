@@ -4,9 +4,9 @@ ADDED from AndroidManifest.xml:2:1
 	android:hardwareAccelerated
 		ADDED from AndroidManifest.xml:2:11
 	xmlns:android
-		ADDED from AndroidManifest.xml:2:135
+		ADDED from AndroidManifest.xml:2:137
 	package
-		ADDED from AndroidManifest.xml:2:100
+		ADDED from AndroidManifest.xml:2:102
 	android:versionName
 		ADDED from AndroidManifest.xml:2:74
 	android:versionCode
